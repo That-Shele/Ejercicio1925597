@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1925597.Ejercicio1"
+             Title="Ejercicio1">
+    <!--<Summary>
+     <Createddate>24/5/2024</createddate>
+     <company>Shelini</company>
+     <lastmodificationdate>24/5/2024</lastmodificationdate>
+     <lastmodificationdescription>
+         Se agregó imágen alusiva al ejemplo
+     </lastmodificationdescription>
+     <lastmodifierautor>Maynor</lastmodifierautor>
+     </Summary>
+     -->
+    <StackLayout>
+        <Label 
+            Text="Ingrese 4 números"
+            HorizontalOptions="Center" />
+        <Image Source="ejerciciouno.png" WidthRequest="360" HeightRequest="220"/>
+        <Entry Placeholder="Numero 1" x:Name="e1"/>
+        <Entry Placeholder="Numero 2" x:Name="e2"/>
+        <Entry Placeholder="Numero 3" x:Name="e3"/>
+        <Entry Placeholder="Numero 4" x:Name="e4"/>
+        <Button Text="Ejecutar" Clicked="Button_Clicked" HorizontalOptions="CenterAndExpand" VerticalOptions="End"></Button>
+        <Button Text="Ir al siguiente ejercicio" Clicked="Button_Clicked_1" HorizontalOptions="CenterAndExpand" VerticalOptions="End"></Button>
+    </StackLayout>
+</ContentPage>

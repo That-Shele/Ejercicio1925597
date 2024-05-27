@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1925597.Ejercicio4"
+             Title="Ejercicio4">
+    <!--<Summary>
+    <Createddate>24/5/2024</createddate>
+    <company>Shelini</company>
+    <lastmodificationdate>24/5/2024</lastmodificationdate>
+    <lastmodificationdescription>
+        Se agregó imágen alusiva al ejemplo
+    </lastmodificationdescription>
+    <lastmodifierautor>Maynor</lastmodifierautor>
+    </Summary>
+    -->
+    <StackLayout>
+        <Label 
+            Text="Introduzca un entero"
+            HorizontalOptions="Center" />
+        <Image Source="ejerciciocuatro.png" WidthRequest="360" HeightRequest="220"/>
+        <Entry Placeholder="Ingrese numero" x:Name="e1" />
+        <Entry Placeholder="Cuadrado" x:Name="e2" />
+        <Entry Placeholder="Cubo" x:Name="e3" />
+        <Button Text="Regresar" VerticalOptions="End" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked"/>
+        <Button Text="Ejecutar" VerticalOptions="End" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked_1" />
+        <Button Text="Ir al siguiente" VerticalOptions="End" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked_2"/>
+    </StackLayout>
+</ContentPage>

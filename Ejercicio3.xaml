@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1925597.Ejercicio3"
+             Title="Ejercicio3">
+    <!--<Summary>
+    <Createddate>24/5/2024</createddate>
+    <company>Shelini</company>
+    <lastmodificationdate>24/5/2024</lastmodificationdate>
+    <lastmodificationdescription>
+        Se agregó imágen alusiva al ejemplo
+    </lastmodificationdescription>
+    <lastmodifierautor>Maynor</lastmodifierautor>
+    </Summary>
+    -->
+    <ScrollView>
+    <StackLayout>
+        <Label 
+            Text="Ingrese las 5 calificaciones"
+            HorizontalOptions="Center" />
+        <Image Source="ejerciciotres.png" WidthRequest="360" HeightRequest="220"/>
+        <Entry Placeholder="Nota 1" x:Name="e1"/>
+        <Entry Placeholder="Nota 2" x:Name="e2"/>
+        <Entry Placeholder="Nota 3" x:Name="e3"/>
+        <Entry Placeholder="Nota 4" x:Name="e4"/>
+        <Entry Placeholder="Nota 5" x:Name="e5"/>
+        <Entry Placeholder="Promedio" x:Name="eP"/>
+        <Button Text="Regresar" VerticalOptions="End" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked" />
+        <Button Text="Ejecutar" VerticalOptions="End" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked_1"/>
+        <Button Text="Ir al siguiente" VerticalOptions="End" HorizontalOptions="CenterAndExpand" Clicked="Button_Clicked_2" />
+    </StackLayout>
+    </ScrollView>
+</ContentPage>
